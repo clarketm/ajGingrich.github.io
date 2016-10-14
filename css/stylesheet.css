@@ -3,7 +3,17 @@ p {
     font-size: 24px;
 }
 
+#snLink {
+    margin-bottom: 20px;
+}
+#snLink a {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: blue;
+}
 #indexImage {
-    height: 25%;
-    width: 25%;
+    margin-bottom: 20px;
+}
+body {
+    text-align: center;
 }
