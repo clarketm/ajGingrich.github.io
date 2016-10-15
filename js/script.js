@@ -9,6 +9,6 @@ var oldImage = function () {
 }*/
 $(document).ready(function() {
     $('#hello').click(function() {
-        $(this).effect("bounce", {times:10}, 3000);
+        $(this).effect("bounce", {distance: 40, times:10}, 3000);
     });
 });
