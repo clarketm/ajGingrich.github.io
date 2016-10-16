@@ -19,7 +19,7 @@ p {
 }
 #sliderMain .clip {
     position: absolute;
-    display: block;
+    display: none;
     left: 0;
     right: 0;
     bottom: 0;
@@ -27,7 +27,7 @@ p {
     border-radius: 10px;
 }
 .currentClip {
-    z-index: 2;
+    display: block;
 }
 body {
     text-align: center;
